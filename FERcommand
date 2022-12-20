@@ -1,0 +1,63 @@
+WALKTHROUGH from BACHELOR PAD to START OF PHASE 9
+w;n;s;s;s;e;get all;w
+drop truck;point truck to north;push button
+e;open door;e;drop all
+n;w;get all;e;n;w;get all;e;n;w;get all
+e;e;e;s;e;get all
+w;s;e;push fridge
+d;n;w;w;w;w;w;w;n;get all;s;s;u
+n;e;s;n;s;s;s;drop all;n;n;n;get all;s;n
+s;s;s;drop truck;push green button
+e;open door;e;e;e;open door;e;get all
+w;n;n;n;e;get all;open box
+w;s;s;e;open fridge;drop rod
+get ice;wait;wait;wait;wait;put ice in box
+close box;d;n;w;w;w;w;w;w;s;u
+n;e;s;n;s;s;s;drop all;n;n;n;get all;s;n
+s;s;s;drop truck;push green button
+e;open door;e;e;e;n;e;get all
+d;n;w;w;w;w;w;w;s;u
+n;e;s;n;s;s;s
+get fur;w;rub fur with rod;touch dome with rod
+e;drop all;n;n;n;w;n;n;n;n;w
+pull lever;w;w;pull lever;w;s;pull lever
+s;e;pull lever;e;n;pull lever;n;w;pull lever
+w;s;pull lever;s;s;pull lever;s;e;pull lever
+e;s;pull lever;s;e;pull lever;e;n;pull lever
+n;n;pull lever;n;w;pull lever;w;w;pull lever
+w;s;pull lever;s;e;pull lever;e;n;pull lever
+n;n;pull lever;n;e;pull lever;e;s;pull lever
+s;s;pull lever;s;s;pull lever;s;w;pull lever
+w;w;pull lever;w;n;pull lever;n;n;pull lever
+n;n;pull lever;n;e;pull lever;e;e;pull lever
+e;s;s;s;s;e;get all;s;n;s;s;s;drop all
+get ring;n;n;n;wave ring over glass;s;n;s;s;s
+drop all;get casket;s;put casket in cavity
+n;get ruby; get flashgun;s;open cupboard
+put ruby in groove;drop flashgun;n;get box;s
+drop box;open box;get ice;put ice in cavity
+push button;get ice;put ice in box;close box
+empty casket;get card;get flashgun;get ruby;n
+get rod;get fur;push green button;e;open door;e
+ne;ne;e;read card;put card in slot;w;n;n;drop all
+s;s;s;s;s;e;open reticule;get linen
+w;nw;w;get all;ne;ne;n;n;drop all
+s;s;s;e;d;n;w;w;w;w;w;w;s;u
+n;e;e;open door;n;n;w;n;get all;s;e;s;s;w
+get all;s;n;s;s;s;drop truck;push green button
+s;get all;n;get all;e;open door;e
+ne;ne;n;n;drop all
+get cylinder;point cylinder at door;press pad
+open door;get all;e;s;s;drop all
+n;n;w;get all;e;s;s;drop all
+n;n;w;get all;e;s;s;drop all
+n;n;w
+s;s;s;e;d;n;w;w;w;w;w;w;s;u;n;e
+get truck;s;n;s;s;s;s;get all
+n;e;open door;e;ne;ne;n;n;e;s;s
+drop all;release handbrake;turn knob
+get orange pin; get white pin; get black pin; get brown pin
+release handbrake; turn knob;n;n;n
+put white in right; put black in left
+put orange in rm; put brown in lm
+s;s;s;release handbrake;turn knob
