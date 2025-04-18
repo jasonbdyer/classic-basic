@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="Generator" content="DirMaster v3.1.5">
+<meta name="Description" content="www.style64.org/dirmaster">
+<title>C:\Emulation\VICE\bin\GRAVETWO.html</title><style  type="text/css">
+.c64_petscii{display:inline-block;clear:both;font-family:"C64 Pro Mono",monospace;font-size: 12pt;line-height: 16px;font-weight:normal;font-style:normal;letter-spacing:0;padding:0;margin:0}.c64_fg00{color:#000000;}
+.c64_fg01{color:#ffffff;}
+.c64_fg02{color:#682c2b;}
+.c64_fg03{color:#70a4b2;}
+.c64_fg04{color:#6f3d86;}
+.c64_fg05{color:#588d43;}
+.c64_fg06{color:#352879;}
+.c64_fg07{color:#b8c76f;}
+.c64_fg08{color:#6f4f25;}
+.c64_fg09{color:#433900;}
+.c64_fg0a{color:#9a6759;}
+.c64_fg0b{color:#444444;}
+.c64_fg0c{color:#6c6c6c;}
+.c64_fg0d{color:#9ad284;}
+.c64_fg0e{color:#6c5eb5;}
+.c64_fg0f{color:#959595;}
+.c64_bg00{background-color:#000000;}
+.c64_bg01{background-color:#ffffff;}
+.c64_bg02{background-color:#682c2b;}
+.c64_bg03{background-color:#70a4b2;}
+.c64_bg04{background-color:#6f3d86;}
+.c64_bg05{background-color:#588d43;}
+.c64_bg06{background-color:#352879;}
+.c64_bg07{background-color:#b8c76f;}
+.c64_bg08{background-color:#6f4f25;}
+.c64_bg09{background-color:#433900;}
+.c64_bg0a{background-color:#9a6759;}
+.c64_bg0b{background-color:#444444;}
+.c64_bg0c{background-color:#6c6c6c;}
+.c64_bg0d{background-color:#9ad284;}
+.c64_bg0e{background-color:#6c5eb5;}
+.c64_bg0f{background-color:#959595;}
+</style></head><body>
+<div class="c64_petscii c64_fg0e c64_bg06">
+  <div>0&nbsp;print"<span class=" c64_fg06 c64_bg0e">P</span><span class=" c64_fg0e c64_bg06">grave&nbsp;robbers</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06">tm</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">copr.1982b.robinson":goto9000</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">S</span><span class=" c64_fg0e c64_bg06">":gosub2100:print"</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">←</span><span class=" c64_fg06 c64_bg0e">r</span><span class=" c64_fg0e c64_bg06">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class=" c64_fg06 c64_bg0e">R</span><span class=" c64_fg06 c64_bg0e">s</span><span class=" c64_fg06 c64_bg0e">P</span><span class=" c64_fg0e c64_bg06">";:goto1510</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">2&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">s</span><span class=" c64_fg0e c64_bg06">"tab(x);:ifythenforq=1toy:print"</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">";:next</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3&nbsp;return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">4&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">e</span><span class=" c64_fg0e c64_bg06">can't&nbsp;do&nbsp;that";:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">5&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">e</span><span class=" c64_fg0e c64_bg06">nothing&nbsp;special";:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">6&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">e</span><span class=" c64_fg0e c64_bg06">elevator&nbsp;jammed";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">9&nbsp;gosub2200:print"</span><span class=" c64_fg06 c64_bg0e">e</span><span class=" c64_fg06 c64_bg0e">R</span><span class=" c64_fg0e c64_bg06">command?&nbsp;";:r$="</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">10&nbsp;geti$:ifi$&gt;"</span><span class=" c64_fg06 c64_bg0e">←</span><span class=" c64_fg0e c64_bg06">"andi$&lt;"["thenr$=r$+i$:printi$;</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">16&nbsp;ifi$="</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">"then200</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">19&nbsp;iflen(r$)&lt;12then10</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">200&nbsp;v=0:r$=r$+"&nbsp;&nbsp;":iflen(r$)=2then9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">205&nbsp;v$=left$(r$,2):forq=2to19step2:ifv$=mid$("&nbsp;opgoloprcupuinjuge",q,2)thenv=q/2:q=h</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">210&nbsp;next:n$="":forq=len(r$)-2to2step-1:ifmid$(r$,q,1)="&nbsp;"thenn$=mid$(r$,q+1,2):q=.</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">220&nbsp;next:n=.:forq=2to41step2</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">230&nbsp;ifn$=mid$("&nbsp;fodikepiralostfufisaglto1&nbsp;2&nbsp;3&nbsp;4&nbsp;elupoudo",q,2)thenn=q/2:q=h</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">280&nbsp;next:gosub2100:onvgoto300,400,500,600,700,800,900,1000,1100:print"huh?";:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">300&nbsp;ifn=8thenf=1:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">302&nbsp;ifn=20andl=13thenp=1:print"knob&nbsp;fell&nbsp;off!</span><span class=" c64_fg06 c64_bg0e">P</span><span class=" c64_fg0e c64_bg06">";:gosub3100:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">305&nbsp;ifn-10orl-14then4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">310&nbsp;print"combination?";:r$="":forq=0to5</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">350&nbsp;geti$:ifi$&lt;"&nbsp;"ori$&gt;"z"then350</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">360&nbsp;r$=r$+i$:printi$;:ifq&lt;5andqand1thenprint"-";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">380&nbsp;next:gosub2100:ifr$="710037"thens=1:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">390&nbsp;print"wrong&nbsp;combination";:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">400&nbsp;ifithen450</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">401&nbsp;ifn-17then420</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">403&nbsp;ifg=0thenprint"</span><span class=" c64_fg06 c64_bg0e">e</span><span class=" c64_fg0e c64_bg06">bad&nbsp;idea";:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">405&nbsp;ifl=15orl=14then6</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">410&nbsp;l=17:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">420&nbsp;ifn=9thenifl=14orl=15theni=1:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">430&nbsp;ifi=0andl=15andn=50thenl=17:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">440&nbsp;goto4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">450&nbsp;ifn&lt;18then4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">455&nbsp;ifn=19theni=0:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">460&nbsp;ifn=18then480</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">470&nbsp;ifl=15thenl=14:i=0:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">472&nbsp;goto4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">480&nbsp;ifl=14thenl=15:i=0:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">482&nbsp;goto4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">500&nbsp;ifn=0then1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">505&nbsp;ifn-17then5</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">507&nbsp;ifl=15thenj=8:x=3:y=2:v=14:w=15:gosub3590:gosub3550</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">509&nbsp;ifl=15thenprint"</span><span class=" c64_fg06 c64_bg0e">s</span><span class=" c64_fg06 c64_bg0e"></span><span class=" c64_fg0e c64_bg06">"spc(242)spc(22);:forq=1to5:printtab(8)"</span><span class=" c64_fg06 c64_bg0e">r</span><span class=" c64_fg0e c64_bg06">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;":next:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">520&nbsp;ifl=16andg=0thenj=1:x=10:y=9:v=0:w=1:gosub3590:gosub3550:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">530&nbsp;goto5</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">600&nbsp;ifl-17orn&lt;13orn&gt;16then4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">610&nbsp;ifn=15or(n=13ande=0)thenprint"button&nbsp;not&nbsp;working";:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">620&nbsp;l=n:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">700&nbsp;ifl%(2)-horl-13orn-11then4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">710&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">S</span><span class=" c64_fg0e c64_bg06">congratulations!&nbsp;&nbsp;you&nbsp;found&nbsp;the&nbsp;diamond&nbsp;and&nbsp;secret&nbsp;passage&nbsp;leadingout!":end</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">800&nbsp;ifn=1theng=1:l%(1)=0:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">810&nbsp;ifl-17then4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">830&nbsp;ifn=3andl%(3)=hthene=1:l%(3)=0:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">840&nbsp;goto600</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">900&nbsp;gosub2100:forq=1to5:ifl%(q)=hthenprintd$(q)"&nbsp;";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">910&nbsp;next:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1000&nbsp;ifl=15thenl=17:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1010&nbsp;goto4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1100&nbsp;ifl=14andsandn=3andl%(3)=10thenl%(3)=h:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1110&nbsp;ifl=14andn=4thenl%(4)=h:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1120&nbsp;ifl=13andn=2thenl%(2)=h:goto1</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1130&nbsp;goto4</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1510&nbsp;ifithenprint"</span><span class=" c64_fg06 c64_bg0e">S</span><span class=" c64_fg0e c64_bg06">":poke36879,8:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">1550&nbsp;poke36879,94:onl-12gosub3100,3200,3300,3400,4000:goto9</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">2100&nbsp;gosub2200:gosub2190:print"</span><span class=" c64_fg06 c64_bg0e">R</span><span class=" c64_fg0e c64_bg06">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">2190&nbsp;x=0:y=21:goto2</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">2200&nbsp;gosub2190:print"</span><span class=" c64_fg06 c64_bg0e">R</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";:gosub2190:print"</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">";:return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3100&nbsp;x=11:y=1:w=8:v=17:gosub3550:x=12:y=2:w=6:v=6:gosub3550:gosub2</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3110&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">03✓</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">✓│0</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">Q";:ifpthenprint"</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">."</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3120&nbsp;ifl%(2)-hthenx=2:y=10:gosub2:print"M&nbsp;</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06"></span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">&nbsp;&nbsp;N</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">NM</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">MN</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3130&nbsp;y=14:x=3:w=3:v=4:gosub3550</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3199&nbsp;return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3200&nbsp;gosub3300:x=8:y=3:gosub2</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3210&nbsp;ifl%(4)-hthenprint"</span><span class=" c64_fg06 c64_bg0e">r</span><span class=" c64_fg0e c64_bg06">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class=" c64_fg06 c64_bg0e">R</span><span class=" c64_fg0e c64_bg06">";:return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3220&nbsp;w=4+s:v=3:gosub3550:gosub2:ifs=0thenprint"</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">Q";:return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3230&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">r</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">R</span><span class=" c64_fg0e c64_bg06">";:ifl%(3)=10thenprint"</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06">W──▄";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3250&nbsp;return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3300&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">P</span><span class=" c64_fg0e c64_bg06">":x=3:y=9:w=15:v=0:gosub3550:x=5:w=11:v=7:y=11:gosub3550:x=7:y=13:w=7:v=5</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3304&nbsp;gosub3550:ifl=14thenprint"</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">L</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">L</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06">▒▒▒▒▒▒</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">▒▒▒▒▒</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">▒▒</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3308&nbsp;return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3400&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">P</span><span class=" c64_fg06 c64_bg0e">s</span><span class=" c64_fg0e c64_bg06">"tab(15)"▁▁▁▁</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">ML✓N</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3403&nbsp;x=0:y=0:v=15:w=8:gosub3550:x=13:y=4:v=7:w=8:gosub3550:print"</span><span class=" c64_fg06 c64_bg0e">s</span><span class=" c64_fg0e c64_bg06">"tab(9)"M</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">M</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">M</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">M";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3405&nbsp;y=16:x=9:gosub2:print"N</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06">N</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06">N</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06">N";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3414&nbsp;x=16:w=3:y=7:v=4:gosub3550:w=1:gosub3550:gosub2:print"</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">H</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">FF</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3416&nbsp;printspc(146)"N▔▔▔▔▔M"spc(14)"N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3418&nbsp;printspc(12)"&nbsp;le0&nbsp;0BlN"spc(12)"M▁▁</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">M▎M▁▁NN</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">NN"spc(14)"</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">▔▔ML✓N</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3420&nbsp;v=8:w=5:x=1:y=3:gosub3550:gosub2</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3422&nbsp;iff=0thenprint"</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">high</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06"></span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">volt":return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3430&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">";:forq=0to9:print"</span><span class=" c64_fg06 c64_bg0e">r</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">&nbsp;";:next</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3435&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">R</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06">W&nbsp;W</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">W&nbsp;W</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">W ";:print"Q";:ifgthenprint"</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">W";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3450&nbsp;return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3550&nbsp;gosub2:printleft$("O▔▔▔▔▔▔▔▔▔▔▔▔▔▔",w)"P";:ifvthenforq=1tov:printspc(21-w)"▎"spc(w-1)"";:next</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3572&nbsp;printspc(21-w)left$("L▁▁▁▁▁▁▁▁▁▁▁▁▁▁",w)"✓";:return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3590&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">S</span><span class=" c64_fg0e c64_bg06">";:poke36879,14:forq=1to22:gosub3598:print"M</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg0e c64_bg06">";:next:print"</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">";:forq=1to21</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3592&nbsp;gosub3598:print"N</span><span class=" c64_fg06 c64_bg0e">Q</span><span class=" c64_fg0e c64_bg06">";:next</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3598&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">e</span><span class=" c64_fg0e c64_bg06">";:ifabs(11.5-q)&lt;jthenprint"</span><span class=" c64_fg06 c64_bg0e">P</span><span class=" c64_fg0e c64_bg06">";</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">3599&nbsp;return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">4000&nbsp;forq=1to20:print"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▍":next</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">4010&nbsp;print"</span><span class=" c64_fg06 c64_bg0e">s</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">]</span><span class=" c64_fg0e c64_bg06">&nbsp;</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">r</span><span class=" c64_fg0e c64_bg06">4</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">3</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">2</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg0e c64_bg06">1</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">q</span><span class=" c64_fg06 c64_bg0e">│</span><span class=" c64_fg06 c64_bg0e">R</span><span class=" c64_fg0e c64_bg06">"mid$("XZ",e+1,1):return</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">9000&nbsp;datafoil,diamond,key,picture,radio:sys7640:clr:goto9020:</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><span class=" c64_fg06 c64_bg0e">t</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">9020&nbsp;dimd$(5),l%(6)</span><br></div>
+  <div><span class=" c64_fg0e c64_bg06">9030&nbsp;forq=1to5:readd$(q):next:h=99:l=16:forq=1to6:readl%(q):next:data99,13,10,14,99,14:goto1</span><br></div>
+</div>
+</body></html>
